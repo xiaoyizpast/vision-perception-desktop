@@ -1,0 +1,16 @@
+# 核心桌面 GUI 与视频解码
+PySide6>=6.7.0
+opencv-python>=4.10.0
+numpy>=1.26.0
+
+# 实时检测与 ByteTrack 跟踪（AGPL-3.0）
+ultralytics>=8.3.0
+lap>=0.5.12
+scipy>=1.13.0
+
+# PyTorch / TorchVision（建议根据本机 CUDA 版本按 https://pytorch.org 官方指令安装）
+torch>=2.4.0
+torchvision>=0.19.0
+
+# 可选：本地打包独立绿色 EXE
+# pyinstaller>=6.10.0

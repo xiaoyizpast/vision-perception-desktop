@@ -1,0 +1,41 @@
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# PyInstaller 构建产物与绿色发行包（体积大且含第三方运行时 DLL）
+_pyi_build/
+build/
+dist/
+release/
+*.exe
+*.lnk
+
+# 预训练模型权重（请按 README 从官方渠道自行获取，不直接提交至 Git）
+weights/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# 原始实拍视频、音频、抽样图与个人运行会话（防大文件及真实路人肖像权风险）
+bundled_data/
+user_sessions/
+data/
+out/
+runs/
+runs_web/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.csv
+
+# 日志与系统临时文件
+*.log
+.DS_Store
+Thumbs.db
